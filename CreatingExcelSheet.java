@@ -9,7 +9,7 @@ public class CreatingExcelSheet {
         FileOutputStream outputfile = new FileOutputStream(Location);
         workbook.write(outputfile);
         outputfile.close();
-        System.out.println("blankExcel.xlsx is written successfully");
+        System.out.println("Users.xlsx is written successfully");
 
 
     }
